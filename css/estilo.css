@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body, {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: url('../imagens/bg-principal.png');
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
+	max-height: 1428px;
+	margin-bottom: 10rem;
+}
+
+section#principal {
+	margin-top: 10rem;
+}
+
+section#principal .card {
+	border-radius: 20px;
+	border: none;
+	box-shadow: 0 0 10px #000;
+}
+
+section#principal #img-principal {
+	margin-top: -100px;
+	width: 962px;
+}
+
+section#principal #texto-principal {
+	padding: 5rem 5rem 2rem 5rem;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+section#principal #texto-principal #grupo {
+	padding: 1rem 6rem 1rem 6rem;
+	background-color: #009de9;
+	border: 1px solid #000;
+	border-radius: 80px;
+	font-family: 'Anton', sans-serif;
+	font-size: 69px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+section#principal #texto-principal #grupo:link,
+section#principal #texto-principal #grupo:visited,
+section#principal #texto-principal #grupo:active {
+	text-decoration: none;
+}
+
+section#principal #texto-principal #grupo:hover {
+	opacity: .8;
+}
+
+section#principal #texto-principal #img-secundaria {
+	width: 380px;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+	section#principal #img-principal {
+		width: 250px;
+	}
+
+	section#principal #texto-principal {
+		padding: 0;
+	}
+
+	section#principal #texto-principal #grupo {
+		padding: .5rem;
+		font-size: 26px;
+	}
+
+	section#principal #texto-principal #img-telegram {
+		width: 30px;
+	}
+
+	section#principal #texto-principal #img-secundaria {
+		width: 250px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+	section#principal #img-principal {
+		width: 600px;
+	}
+
+	section#principal #texto-principal #grupo {
+		padding: 2rem;
+		font-size: 39px;
+	}
+
+	section#principal #texto-principal #img-secundaria {
+		width: 200px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+	section#principal #img-principal {
+		width: 850px;
+	}
+
+	section#principal #texto-principal #grupo {
+		font-size: 49px;
+	}
+
+	section#principal #texto-principal #img-secundaria {
+		width: 300px;
+	}
+}
